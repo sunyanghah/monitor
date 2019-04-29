@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: monitor-manager
+  profiles:
+    active: dev

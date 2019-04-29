@@ -1,0 +1,22 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /monitor/file/
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://47.94.159.51:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+
+promeFilePath: D:\中石油运维平台\prometheus.yml
+
+alertFilePath: D:\中石油运维平台\alertmanager.yml
+
+ruleFilePath: D:\中石油运维平台\rule\*.yml
+
+promeApiUrl: http://39.96.11.112:90901
+
+alertApiUrl: http://39.96.11.112:90931
